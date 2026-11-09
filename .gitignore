@@ -1,0 +1,12 @@
+# Market data (licensed, never committed) and everything derived from it
+data/
+output/
+examples/output/
+
+# Environments and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.claude/

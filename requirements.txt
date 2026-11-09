@@ -1,0 +1,9 @@
+# 净值化雪球回测框架依赖（Python >= 3.10；开发环境 3.13.5）
+# 安装：pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11          # pde_engine 的三对角求解（scipy.linalg.solve_banded）
+openpyxl>=3.1        # 读取 data/raw 下的 xlsx 与导出 output/nav.xlsx
+pyarrow>=15          # batch.py 落盘策略逐日明细（to_parquet）
+matplotlib>=3.8      # 仅 notebook 绘图使用
+jupyter              # 运行 notebooks/main_backtest.ipynb
